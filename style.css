@@ -1,0 +1,86 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+#header {
+text-align: center;
+margin-top: 20px;
+font-size: 24px;
+font-weight: bold;
+}
+
+#main {
+margin-top: 50px;
+}
+
+td {
+text-align: center;
+width: 33.33%;
+}
+
+table {
+margin: 0 auto;
+}
+
+.label {
+font-weight: bold;
+}
+
+input[type="text"] {
+padding: 5px;
+width: 100%;
+}
+
+input[type="text"] {
+padding: 5px;
+width: 100%;
+text-align: center; 
+}
+
+#calculate-button {
+margin-top: 10px;
+padding: 10px;
+background-color: #f3eeee;
+color: rgb(0, 0, 0);
+border: none;
+cursor: pointer;
+width: 108%;
+border-radius: 5px;
+}
+
+#result {
+margin-top: 30px;
+text-align: left;
+font-weight: bold;
+} 
+
+.level {
+padding-top: 20px;
+}
+
+#result-text {
+font-weight: bold;
+}
+
+.low {
+color: rgb(201, 201, 11);
+}
+
+.medium {
+color: green;
+}
+
+.high {
+color: red;
+}
+
+.obese {
+animation: blink 1s infinite;
+color: red;
+}
+
+@keyframes blink {
+50% {
+color: rgb(201, 201, 11);
+}
+}
